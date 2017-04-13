@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	align-content: center;
+	padding: 0px 20px 0 20px;
+}
+
+footer{
+	border-top: 1px solid #008e0d;
+	border-bottom: 1px solid #008e0d;
+	padding: 5px 0 5px 0;
+	text-align: center;
+}
+
+h1{
+	text-align: center;
+	color: #008e0d;
+	margin-top: -135px;
+}
+
+h2{
+	text-align: center;
+	color: #00ae10;
+	border-bottom: 2px solid #00ae10;
+}
+
+h3{
+	color: #00ae10;
+}
+
+.datos_personales{
+	overflow: hidden;
+	width: 100%;
+	text-align: left;
+}
+
+.datos_personales h2{
+	text-align: left;
+	border-bottom: 0px;
+}
+
+table{
+	max-width: 60%;
+	text-align: center;
+}
+
+table th{
+	padding: 5px 11px 5px 11px;
+	background-color: lightgray;	
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<meta name="author" content="Manuel Eduardo Romero">
+		<meta http-equiv="content-language" content="es">
+		<title>Hoja de Vida MR-Educación</title>
+		
+		<link rel="stylesheet" type="text/css" href="estilos/general.css">
+	</head>
+
+	<body>
+		<header>
+			<svg width="400px" height="220px" viewBox="0 0 400 220">
+				<image width="390px" height="220px" xlink:href="imagenes/logoMR.svg">Navegador no soporta SVG</image>
+			</svg>
+			
+			<strong><h1>Hoja de Vida</h1></strong>
+			<h2>Manuel Romero</h2><br>
+		</header>
+
+		<nav>
+			<ul>
+				<a href="index.html"><li>Inicio</li></a>
+				<a href="educacion.html"><li>Educación</li></a>
+				<a href="experiencia.html"><li>Experiencia</li></a>
+			</ul>
+		</nav>
+
+		<article>
+			<div class="datos_personales">
+				<h2>Educación</h2>
+				<table border="1">
+					<tr>
+						<th>Año</th>
+						<th>Institución</th>
+						<th>Lugar</th>
+						<th>¿Culminó?</th>
+					</tr>
+					<tr>
+						<td>2006</td>
+						<td>Institución 1</td>
+						<td>Bogotá</td>
+						<td>Si</td>
+					</tr>
+					<tr>
+						<td>2007</td>
+						<td>Institución 2</td>
+						<td>Bogotá</td>
+						<td>Si</td>
+					</tr>
+					<tr>
+						<td>2017</td>
+						<td>Institución 3</td>
+						<td>Bogotá</td>
+						<td>No</td>
+					</tr>
+				</table>
+
+				<h3>Agregar Estudios</h3>
+				<form>
+					Año: 
+						<select>
+							<option value="seleccione" selected="selected">Seleccione</option>
+							<option value="2017">2017</option>
+							<option value="2016">2016</option>
+							<option value="2015">2015</option>
+							<option value="2014">2014</option>
+						</select><br><br>
+					Institución:
+						<input type="text" name="instuticion" placeholder="Institución"><br><br>
+					Lugar:
+						<input type="text" name="lugar" placeholder="Lugar"><br><br>
+					Culmino:
+						<input type="radio" name="culmino" value="Si">Si
+						<input type="radio" name="culmino" value="No">No<br><br>
+					<input type="submit" name="submit" value="Agregar">
+				</form>
+			</div>
+		</article>
+
+		<footer>
+			Derechos Reservados. <br>Datos de Contacto: <a href="mailto:itemromero@hotmail.com">itemromero@hotmail.com</a>
+		</footer>
+	</body>
+</html>
